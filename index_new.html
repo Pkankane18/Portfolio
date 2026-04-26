@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palak Kankane | Full-Stack Developer & UI/UX Enthusiast</title>
+    <meta
+      name="description"
+      content="Portfolio of Palak Kankane - Full Stack Developer specializing in Angular, TypeScript, Java, and Spring Boot. Building scalable enterprise applications at ADP."
+    />
+    <meta
+      name="keywords"
+      content="Palak Kankane, Full Stack Developer, Angular, TypeScript, JavaScript, Java, Spring Boot, REST APIs, ADP, Hyderabad"
+    />
+    <meta name="author" content="Palak Kankane" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://palakkankane.dev/" />
+    <meta property="og:title" content="Palak Kankane | Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full Stack Developer specializing in Angular, TypeScript, Java, and Spring Boot. Building scalable enterprise applications at ADP."
+    />
+    <meta property="og:image" content="https://palakkankane.dev/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://palakkankane.dev/" />
+    <meta
+      property="twitter:title"
+      content="Palak Kankane | Full-Stack Developer"
+    />
+    <meta
+      property="twitter:description"
+      content="Full Stack Developer specializing in Angular, TypeScript, Java, and Spring Boot. Building scalable enterprise applications at ADP."
+    />
+    <meta
+      property="twitter:image"
+      content="https://palakkankane.dev/og-image.jpg"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">
+          <span class="logo-text">PK</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span class="hamburger"></span>
+        </button>
+
+        <div class="nav-menu">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Hi, I'm <span class="highlight">Palak Kankane</span>
+            </h1>
+            <h2 class="hero-subtitle">
+              Full Stack Developer
+            </h2>
+            <p class="hero-description">
+              Full Stack Developer with 3+ years of experience building scalable web applications using Angular, TypeScript, and JavaScript. Strong expertise in developing reusable components, optimizing performance, and delivering responsive UI. Experienced in integrating REST APIs and collaborating with backend teams for end-to-end feature delivery.
+            </p>
+
+            <div class="hero-stats">
+              <div class="stat">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">4+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">ADP</span>
+                <span class="stat-label">Current Company</span>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-eye"></i>
+                View My Work
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <i class="fas fa-envelope"></i>
+                Get In Touch
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-image">
+              <img
+                src="Profile Picture.jfif"
+                alt="Palak Kankane"
+                class="profile-photo"
+                loading="eager"
+              />
+              <div class="floating-elements">
+                <div class="floating-icon icon-1">
+                  <i class="fab fa-angular"></i>
+                </div>
+                <div class="floating-icon icon-2">
+                  <i class="fab fa-js"></i>
+                </div>
+                <div class="floating-icon icon-3">
+                  <i class="fab fa-java"></i>
+                </div>
+                <div class="floating-icon icon-4">
+                  <i class="fas fa-database"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-indicator">
+          <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+          </div>
+          <span>Scroll Down</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a Full Stack Developer with 3+ years of experience building scalable Angular applications using TypeScript, JavaScript, and modern web architecture. I deliver reusable components, optimized performance, and responsive UI while collaborating closely with backend teams.
+            </p>
+            <p>
+              My core expertise includes REST API integration, RxJS state management, Java and Spring Boot, AWS cloud services, and Agile delivery.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fas fa-code"></i>
+                <span>Clean, maintainable code</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-users"></i>
+                <span>Collaborative team player</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-lightbulb"></i>
+                <span>Innovative problem solver</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-image">
+            <div class="image-container">
+              <img
+                src="Profile Picture.jfif"
+                alt="Palak Kankane"
+                class="profile-photo"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">Technologies I work with</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="category-title">
+              <i class="fas fa-code"></i>
+              Frontend
+            </h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">Angular (14+)</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">TypeScript</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">JavaScript (ES6+)</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">HTML5 & CSS3</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 92%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">RxJS</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <i class="fas fa-server"></i>
+              Backend
+            </h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">Java</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Spring Boot</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">REST APIs</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Oracle SQL</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 78%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <i class="fas fa-cloud"></i>
+              Cloud & Tools
+            </h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">AWS (S3, EC2, Lambda, CloudFront)</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Git & GitHub</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Bitbucket & Jenkins</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Postman & Chrome DevTools</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Figma</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Some of my recent work</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Expense Tracker App"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="View live demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="View source code"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Smart Expense Tracker</h3>
+              <p class="project-description">
+                A comprehensive financial management app with real-time expense
+                tracking, budget planning, and beautiful data visualizations.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Chart.js</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1535320903710-d993d3d77d29?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Investment Calculator"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="View live demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="View source code"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Investment Calculator Pro</h3>
+              <p class="project-description">
+                Advanced investment calculator with compound interest
+                calculations, risk assessment, and portfolio optimization
+                suggestions.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">D3.js</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">TypeScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="E-commerce Platform"
+                loading="lazy"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="View live demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="View source code"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Modern E-commerce Platform</h3>
+              <p class="project-description">
+                Full-stack e-commerce solution with admin dashboard, payment
+                integration, inventory management, and responsive design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Stripe</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Tailwind CSS</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects-cta">
+          <a
+            href="https://github.com/Pkankane18"
+            class="btn btn-secondary"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+            View All Projects
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-subtitle">My professional journey</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Full Stack Developer</h3>
+                <span class="timeline-company">ADP</span>
+                <span class="timeline-date">July 2022 - Present</span>
+              </div>
+              <p class="timeline-description">
+                Developed scalable and responsive UI components using Angular and TypeScript for enterprise HR products, ensuring high performance and maintainability. Built reusable services and components, reducing redundant code by ~30% and improving overall application scalability.
+              </p>
+              <div class="timeline-tech">
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">RxJS</span>
+                <span class="tech-tag">REST APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Key Achievements</h3>
+                <span class="timeline-company">ADP</span>
+                <span class="timeline-date">2022 - Present</span>
+              </div>
+              <ul class="timeline-description">
+                <li>Integrated RESTful APIs using RxJS, enabling efficient state management and seamless real-time data handling</li>
+                <li>Improved application performance by implementing lazy loading and optimizing change detection, reducing load time by ~25%</li>
+                <li>Collaborated closely with backend teams to design and consume APIs, ensuring smooth end-to-end feature integration</li>
+                <li>Gained exposure to backend workflows and API structures, strengthening understanding of full stack development</li>
+              </ul>
+              <div class="timeline-tech">
+                <span class="tech-tag">Performance Optimization</span>
+                <span class="tech-tag">API Integration</span>
+                <span class="tech-tag">Agile/Scrum</span>
+                <span class="tech-tag">CI/CD</span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-subtitle">Get in touch</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <p class="contact-intro">
+              I'm always interested in new opportunities and exciting projects.
+              Whether you have a question or just want to say hi, feel free to
+              reach out!
+            </p>
+
+            <div class="contact-methods">
+              <a href="mailto:kankanepalak@gmail.com" class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Email</span>
+                  <span class="contact-value">kankanepalak@gmail.com</span>
+                </div>
+              </a>
+
+              <a
+                href="https://linkedin.com/in/palak-kankane-8b5745217"
+                class="contact-method"
+                target="_blank"
+              >
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">LinkedIn</span>
+                  <span class="contact-value"
+                    >linkedin.com/in/palak-kankane-8b5745217</span
+                  >
+                </div>
+              </a>
+
+              <a
+                href="https://github.com/Pkankane18"
+                class="contact-method"
+                target="_blank"
+              >
+                <div class="contact-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">GitHub</span>
+                  <span class="contact-value">github.com/Pkankane18</span>
+                </div>
+              </a>
+
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Phone</span>
+                  <span class="contact-value">+91 9993486866</span>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-value">Hyderabad, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-input"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="form-input"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-textarea"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">
+              <i class="fas fa-paper-plane"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <span class="footer-logo">PK</span>
+            <p class="footer-tagline">
+              Crafting digital experiences with passion
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#about" class="footer-link">About</a>
+            <a href="#projects" class="footer-link">Projects</a>
+            <a href="#contact" class="footer-link">Contact</a>
+          </div>
+
+          <div class="footer-social">
+            <a
+              href="https://github.com/Pkankane18"
+              class="social-link"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/palak-kankane"
+              class="social-link"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://twitter.com/palak_kankane"
+              class="social-link"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="mailto:kankanepalak@gmail.com"
+              class="social-link"
+              aria-label="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2024 Palak Kankane. All rights reserved.
+            <span class="footer-heart"
+              >Made with <i class="fas fa-heart"></i
+            ></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
